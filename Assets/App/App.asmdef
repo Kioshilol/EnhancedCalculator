@@ -1,0 +1,19 @@
+{
+    "name": "App",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "Calculator",
+        "MessageBox",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

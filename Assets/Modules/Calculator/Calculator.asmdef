@@ -1,0 +1,17 @@
+{
+    "name": "Calculator",
+    "rootNamespace": "Calculator",
+    "references": [
+        "Unity.TextMeshPro",
+        "MessageBox"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
