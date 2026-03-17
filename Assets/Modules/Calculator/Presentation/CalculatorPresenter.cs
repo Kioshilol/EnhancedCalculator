@@ -54,7 +54,7 @@ namespace Calculator.Presentation
             if (!result.IsSuccess)
             {
                 var lastInput = input;
-                _messageBox.Show("Please check the expression\nyou just entered", () =>
+                _messageBox.Show("Please check the expression\nyou just entered", "GOT IT", () =>
                 {
                     _view.InputText = lastInput;
                     _state.CurrentInput = lastInput;

@@ -1,4 +1,4 @@
-using Calculator.Data.Base;
+using Infrastructure.Data;
 using Calculator.Domain;
 
 namespace Calculator.Data

@@ -3,7 +3,8 @@
     "rootNamespace": "Calculator",
     "references": [
         "Unity.TextMeshPro",
-        "MessageBox"
+        "MessageBox",
+        "Infrastructure"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

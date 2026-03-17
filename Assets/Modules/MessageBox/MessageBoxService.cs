@@ -11,11 +11,9 @@ namespace MessageBox
             _presenter = presenter;
         }
 
-        public void Show(
-            string message, 
-            Action onClosed)
+        public void Show(string message, string buttonText, Action onClosed)
         {
-            _presenter.Show(message, onClosed);
+            _presenter.Show(message, buttonText, onClosed);
         }
 
         public void Hide()

@@ -1,6 +1,6 @@
-﻿using UnityEngine;
+using UnityEngine;
 
-namespace Calculator.Data.Base
+namespace Infrastructure.Data
 {
     public abstract class BaseRepository<T> : IRepository<T>
     {

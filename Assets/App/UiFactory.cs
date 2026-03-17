@@ -101,7 +101,7 @@ public class UiFactory
         le.preferredHeight = 50;
     }
 
-    private TMP_InputField CreateInputField(Transform parent)
+    private static TMP_InputField CreateInputField(Transform parent)
     {
         var inputGo = new GameObject("InputField");
         inputGo.SetActive(false);
@@ -174,7 +174,7 @@ public class UiFactory
         return inputField;
     }
 
-    private Transform CreateHistoryArea(Transform parent)
+    private static Transform CreateHistoryArea(Transform parent)
     {
         var scrollGo = new GameObject("HistoryScroll");
         scrollGo.transform.SetParent(parent, false);
@@ -384,14 +384,14 @@ public class UiFactory
         btnTextRT.offsetMin = Vector2.zero;
         btnTextRT.offsetMax = Vector2.zero;
         var btnText = btnTextGo.AddComponent<TextMeshProUGUI>();
-        btnText.text = "GOT IT";
+        btnText.text = string.Empty;
         btnText.fontSize = 32;
         btnText.fontStyle = FontStyles.Bold;
         btnText.alignment = TextAlignmentOptions.Center;
         btnText.color = Color.white;
 
         view = overlay.AddComponent<MessageBoxView>();
-        view.Init(overlay, msgText, btn);
+        view.Init(overlay, msgText, btn, btnText);
 
         return overlay;
     }

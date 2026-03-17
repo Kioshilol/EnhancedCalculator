@@ -15,10 +15,12 @@ namespace MessageBox
 
         public void Show(
             string message, 
+            string buttonText, 
             Action onClosed)
         {
             _onClosed = onClosed;
             _view.SetMessage(message);
+            _view.SetButtonText(buttonText);
             _view.SetVisible(true);
         }
 

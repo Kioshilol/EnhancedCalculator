@@ -35,6 +35,12 @@ Built programmatically via `UiFactory` at runtime. No prefabs or scene-based UI 
 
 Regex `^\d+\+\d+$` - only non-negative integers with a single `+` operator. Everything else produces `ERROR` and triggers the error dialog.
 
+## Tools
+
+- Unity 6 LTS (URP)
+- JetBrains Rider
+- VContainer (DI)
+
 ## Setup
 
 1. Open project in Unity 6+
