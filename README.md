@@ -25,7 +25,7 @@ VContainer as IoC container. `AppBootstrapper` (extends `LifetimeScope`) wires a
 
 ## UI
 
-Built programmatically via `UiFactory` at runtime. No prefabs or scene-based UI setup required - single `AppBootstrapper` component on an empty GameObject.
+Built programmatically via `UiFactory` at runtime. Chose code-driven UI over prefabs to keep all layout configuration version-control friendly (no binary scene diffs), make the project runnable without manual scene setup, and to demonstrate proficiency with runtime UI construction via Unity API.
 
 ## State Persistence
 

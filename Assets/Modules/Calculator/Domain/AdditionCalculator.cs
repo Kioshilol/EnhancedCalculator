@@ -15,13 +15,13 @@ namespace Calculator.Domain
 
             var parts = input.Split('+');
             if (parts.Length != 2 ||
-                !long.TryParse(parts[0], out var a) ||
-                !long.TryParse(parts[1], out var b))
+                !long.TryParse(parts[0], out var firstValue) ||
+                !long.TryParse(parts[1], out var secondValue))
             {
                 return CalculationResult.Error(input);
             }
 
-            return CalculationResult.Success(input, a + b);
+            return CalculationResult.Success(input, firstValue + secondValue);
         }
     }
 }
